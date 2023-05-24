@@ -1,0 +1,55 @@
+body{
+    background-color: #f0f2f5;
+    font-family: inherit;
+}
+.mainContainer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100vh;
+}
+.imgFacebook{
+    height: 106px;
+}figcaption{
+    font-size: large;
+    color: black solid;
+}.faceBookLoginCard{  
+    background-color: #ffffff;
+    width: 310px;
+    border-radius: 10px;
+    padding: 15px;
+}input :active{
+    border-color: blue;
+}input{
+    border: #1877f2 1px solid;
+    width: 270px;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 10px;
+    outline: #1877f2 1px solid;
+}.logInbtn{
+    padding: 13px;
+    margin: 10px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: #1877f2;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}a{
+    color: #1877f2;
+text-decoration: none;
+}a :hover{
+    text-decoration: underline;
+}hr{
+    width: 280px;
+}.account{
+    width: 145px;
+    padding: 11px;
+    background-color: #42b72a;
+    border: #42b72a;
+    border-radius: 10px;
+    cursor: pointer;
+}
